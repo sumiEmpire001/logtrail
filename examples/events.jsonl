@@ -1,0 +1,3 @@
+{"timestamp":"2026-11-01T10:00:00Z","level":"INFO","message":"Service started"}
+{"timestamp":"2026-11-01T10:02:00Z","level":"WARN","message":"Slow request"}
+{"timestamp":"2026-11-01T10:03:00Z","level":"ERROR","message":"Connection failed"}
