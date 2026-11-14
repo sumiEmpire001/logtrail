@@ -42,3 +42,7 @@ CI runs the tests and builds distributions on Linux and Windows with Python 3.9,
 ## License
 
 MIT.
+
+## C++11 companion implementation
+
+A separate portable C++ algorithm is available in [cpp/core.hpp](cpp/core.hpp), with [host tests](cpp/tests.cpp), [CMake](CMakeLists.txt) and [GitHub Actions](.github/workflows/cpp-core.yml). The Python implementation and its existing tests remain unchanged. See [C++ limitations and safety notes](cpp/README.md) for differences, embedded memory constraints and unverified Arduino/ESP32 hardware integration.
